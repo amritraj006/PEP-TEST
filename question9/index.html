@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="grid place-items-center min-h-screen bg-gray-200">
+
+  <div class="mt-10 pb-4 w-[320px] shadow-gray-400 bg-white rounded-xl shadow-xl relative">
+
+    <div class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 text-sm rounded-md">
+      Sale
+    </div>
+
+    <img
+      class="w-full rounded-t-xl"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY9y_HaPXn5z-oAUhLbdyaHDGNRti64H2tA&s"
+      alt="Wireless Headphones"
+    >
+
+    <div class="px-4 mt-4">
+      <h1 class="font-bold text-xl">Wireless Headphones</h1>
+      <p class="text-sm text-gray-600">
+        High quality wireless headphones with noise cancellation.
+      </p>
+      <h2 class="font-bold text-xl mt-2">₹2,999</h2>
+    </div>
+
+    <div class="flex items-center space-x-2 px-4 mt-4">
+      <button class="bg-gray-200 rounded-md px-8 py-2 hover:bg-gray-300">
+        Add to Cart
+      </button>
+      <button class="px-8 py-2 rounded-md bg-black text-white hover:bg-gray-800">
+        Buy Now
+      </button>
+    </div>
+
+  </div>
+
+</body>
+</html>
