@@ -6,9 +6,5 @@ const users = [
   { id: 5, name: "Eve", isActive: false, membership: "basic" }
 ];
 
-
-const newArr = users.filter((user) => {
-    return user.isActive && user.membership === "premium";
-})
-
+const newArr = users.filter((user) => user.isActive && user.membership === "premium");
 console.log(newArr)

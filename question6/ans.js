@@ -12,7 +12,7 @@ var a = 10; //Values is assigned before console.log(a);
 let b = 20;
 
 console.log(a); //Now it will print the value = 10;
-console.log(b); 
+console.log(b); //Value = 20
 
 function test() {
   var c = 30; //Values is assigned before console.log(c);
